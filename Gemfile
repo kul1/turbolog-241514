@@ -48,3 +48,31 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'devise'
+gem 'mongo', '~> 2.2'
+gem 'bson', '~> 4.0'
+gem 'mongoid', github: 'mongodb/mongoid'
+gem 'nokogiri'
+gem 'haml', git: 'https://github.com/haml/haml'
+gem 'haml-rails'
+gem 'bcrypt'
+gem 'omniauth-identity'
+gem 'omniauth-facebook'
+gem 'dotenv-rails'
+group :development, :test do
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'pry-byebug'
+  gem 'factory_bot_rails'
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'guard-minitest'
+  gem 'capybara'
+  gem 'rb-fsevent'
+  gem 'simplecov'
+  gem 'faker', git: 'https://github.com/stympy/faker.git', branch: 'master'
+  gem 'database_cleaner'
+end
