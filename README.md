@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sample Rails App created with gem turbolog with the following configuration:
 
-Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.4.1, Rails 5.1.4
 
-* System dependencies
+* MongoDB version v3.6.2
 
-* Configuration
+Notes: 
 
-* Database creation
+* Please edit .env and update your FACEBOOK_API, FACEBOOK_SECRET
 
-* Database initialization
 
-* How to run the test suite
+* To run the test suite
+  At Terminal type
+  $ rspec
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
